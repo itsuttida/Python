@@ -3,3 +3,10 @@
 
 #2  = 2 is even
 #5  = 5 is odd
+
+number = int (input( " enter number " ))
+if number % 2 == 0 :
+    print( " %d is even " %(number))
+
+else : 
+    print( " %d is odd" %(number))
