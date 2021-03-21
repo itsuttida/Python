@@ -11,19 +11,19 @@ age = int(input("age : "))
 
 name = input("name : ")
 
-# if age >= 15 and age <= 20:
-#     print("วัยรุ่น")
+if age >= 15 and age <= 20:
+    print("วัยรุ่น")
 
-# if age >= 21 and age <= 29 :
-#     print("ผู้ใหญ่")
+if age >= 21 and age <= 29 :
+    print("ผู้ใหญ่")
 
-# if age >= 30 and age <= 39:
-#     print("วัยทำงาน")
+if age >= 30 and age <= 39:
+    print("วัยทำงาน")
 
-# if not (age == 15) :
-#     print("age != 15")
+if not (age == 15) :
+    print("age != 15")
 
-# print(age == 15)
+print(age == 15)
 
 if name == "aew" :
     print("aew")

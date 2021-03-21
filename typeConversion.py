@@ -4,7 +4,7 @@ x = 10  #int
 y = 3.1
 z = "20"
 
-print(type(x))
+print(type(x))   #Int
 print(type(y))
 print(type(z))
 
