@@ -13,3 +13,10 @@ print(len(str2))
 # if str1 == str2:
 #     print("Same")
     
+if (len(str1)) == (len(str2)) :
+    print(" Same ")
+# elif (len(str1)) != (len(str2)) :
+#     print (" Not Same ")
+
+else : 
+    print (" Not Same ")
