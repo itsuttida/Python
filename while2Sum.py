@@ -13,6 +13,3 @@ while i <= count:
     sum = sum + i
     print("ค่า Sum = ", sum)
     i = i+1
-
-average = sum/count
-print("average ", average)
