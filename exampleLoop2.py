@@ -28,3 +28,11 @@ XXXX
 XXXX
 XXXX
 """
+
+
+last = int(input(" ป้อน ="))
+
+for row in range (1, last+1):
+    for conlumn in range(1, last+1 ):
+        print( "X" , end='')
+    print ("")

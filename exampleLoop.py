@@ -15,7 +15,7 @@ input = 6
 last = int(input("ป้อนตัวเลข = "))  #last = 6
 
 for row in range(1,last+1):   #row = 6
-    for conlumn in range(1,row):  #conlumn = 5
+    for conlumn in range(1,row+1):  #conlumn = 5
         print(conlumn , end='')
     print("")
 
