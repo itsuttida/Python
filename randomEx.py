@@ -5,15 +5,24 @@
 
 import random
 
-myrandom = random.randrange(1,7)   6
+myrandom = random.randrange(1,7)   
+count = 0
 
 while True :
     number = int(input("ทายตัวเลข : "))
 
-    if number == 0:
+    if number < 0 or number == 3 :
         break
-    if number == myrandom :
+    correct = (number == myrandom)
+    if not correct:
+        if number > myrandom:
+            print("น้อยกว่า")
+        if number < myrandom:
+            print("มากกว่า")
+    if correct :
         print("ได้รับรางวัล")
+        break
     else :
         print("เสียใจด้วย")
+    count += 1
     
