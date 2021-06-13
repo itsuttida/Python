@@ -1,7 +1,7 @@
-number = [1,2,3,4,5,6]   #สมาชิิกคือ 1-6
+number = [1,2,3,4,5,10]   #สมาชิิกคือ 1-6
 
-for x in number:
-    print(x)
+# for x in number:
+#     print(x)
 
 
 sum = 0

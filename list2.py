@@ -9,7 +9,7 @@ print(number[3])
 
 print(number[1]+number[2])
 
-print(name[1])
+# print(name[1])
 
 #ระบุค่าติดลบ
 
@@ -22,4 +22,4 @@ print(all[1:3])
 print(all[-3:-1])
 print(all[-3:])
 print(all[:3])
-print(all[1:])
+# print(all[1:])

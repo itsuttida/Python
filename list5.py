@@ -11,7 +11,7 @@ else:
 
 #จำนวนสมาชิก
 
-# print(len(fruit))
+print(len(fruit))
 
 #นำขนาดของ list ไปทำงานกับ loop for
 
